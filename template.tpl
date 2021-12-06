@@ -43,9 +43,10 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 // Require necessary scripts
 const injectScript = require('injectScript');
+const encodeUriComponent = require('encodeUriComponent');
 
 // Inject our tracking code
-injectScript('https://tools.luckyorange.com/core/lo.js?site-id=' + data.siteId, data.gtmOnSuccess, data.gtmOnFailure);
+injectScript('https://tools.luckyorange.com/core/lo.js?site-id=' + encodeUriComponent(data.siteId), data.gtmOnSuccess, data.gtmOnFailure);
 
 // Call data.gtmOnSuccess when the tag is finished.
 function onSuccess () {
