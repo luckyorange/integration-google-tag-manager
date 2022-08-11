@@ -1,5 +1,9 @@
 homepage: "https://www.luckyorange.com"
 documentation: "https://help-preview.luckyorange.com"
 versions:
+  # Latest version
+  - sha: 29dc217edf24efae1bcbd9d046ed8cb6ab46fc1f
+    changeNotes: Clarifies which versions of Lucky Orange are supported by this template.
+  # Past versions
   - sha: 86ec45977cf13388de3378b94bb8682ce9aeb39e
     changeNotes: Initial release
