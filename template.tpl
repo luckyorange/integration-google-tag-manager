@@ -13,7 +13,7 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Lucky Orange Tracking Code",
+  "displayName": "OFFICIAL Lucky Orange Tracking Code",
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
